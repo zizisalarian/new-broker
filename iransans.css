@@ -1,0 +1,30 @@
+
+
+@font-face {
+    font-display: swap;
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('./IranianSans/IRANSans-Medium-web.eot');
+    src: url('./IranianSans/IRANSans-Medium-web.ttf') format('truetype')
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 600;
+    src: url('./IranianSans/IRANSans-bold-web.eot');
+    src: url('./IranianSans/IRANSans-bold-web.ttf') format('truetype')
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url('./IranianSans/IRANSans-web.eot');
+    src: url('./IranianSans/IRANSans-web.ttf') format('truetype')
+}
+

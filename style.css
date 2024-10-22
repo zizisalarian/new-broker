@@ -26,6 +26,7 @@ body{
 }
 .brokers-spread-table-filters{
     background-color: #fff;
+    background-color: green;
 }
 .brokers-spread-table-filters .input-group-text,
 .brokers-spread-table-filters input{

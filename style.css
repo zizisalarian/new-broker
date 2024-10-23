@@ -321,7 +321,7 @@ input[type="checkbox"] {
    }
    .table-container tr{
     /* display: contents; */
-    overflow: auto;
+    overflow: visible;
    }
 .brokers-table-title a.broker-link{
   font-size: .75rem;

@@ -318,6 +318,9 @@ input[type="checkbox"] {
     right:0px; 
     z-index: 9999;
    }
+   .table-container tr{
+    display: contents;
+   }
 .brokers-table-title a.broker-link{
   font-size: .75rem;
   color: #999;

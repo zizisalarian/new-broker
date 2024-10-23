@@ -308,7 +308,7 @@ input[type="checkbox"] {
     background-color: #007bff ;
    }
  
-   .table-container  th:first-child >div{
+   .table-container  th:first-child {
     position:sticky;
 
     right:0px; 

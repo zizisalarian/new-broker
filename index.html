@@ -123,30 +123,30 @@
 
         <section class="brokers-spread-table">
             <div class="brokers-spread-table-filters p-3 rounded-2 row mx-0 align-items-center">
-                <div class="right d-flex col-3 px-0">
+                <div class="right d-flex col-6 col-md-3 px-0">
 
                     <div class="input-group ">
                         <span class="input-group-text "><i class="fa-solid fa-magnifying-glass"></i></span>
                         <input type="text" class="form-control border-start-0" placeholder="جستجو" name="search">
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-6 col-md-2">
 
-                    <div class="include-checkbox d-flex justify-content-center align-items-center ms-3">
+                    <div class="include-checkbox d-flex justify-content-end justify-content-md-center align-items-center ms-3">
                         <input type="checkbox" id="include" name="include" value="true">
                         <label class="ms-2" for="include"> شامل کمیسیون</label><br>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3 px-0 mt-3 mt-md-0">
 
-                    <select name="selection" id="brokers-selection" class="rounded-2 px-2 ms-3">
+                    <select name="selection" id="brokers-selection" class="w-100 rounded-2 px-md-2 px-0 ms-0 ms-md-3">
                         <option value="val1">تست 1</option>
                         <option value="val3">تست 2</option>
                         <option value="val2">تست 3</option>
                     </select>
                 </div>
 
-                <div class="left col-4 px-0 text-end">
+                <div class="left col-6 col-md-4 px-0  mt-3 mt-md-0 text-end">
                     <button class="edit-symbol p-2 rounded-2">
                         <i class="fa-solid fa-pencil"></i>
                         ویرایش نمادها
@@ -531,13 +531,7 @@
             else table.classList.remove('fixed');
 
         })
-        //         $(window).scroll(function(){
-        //   var sticky = $('.sticky'),
-        //       scroll = $(window).scrollTop();
-
-        //   if (scroll >= 100) sticky.addClass('fixed');
-        //   else sticky.removeClass('fixed');
-        // });
+      
     </script>
 
 </body>

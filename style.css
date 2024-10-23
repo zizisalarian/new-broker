@@ -316,6 +316,7 @@ input[type="checkbox"] {
     position: -o-sticky;
     position: sticky;
     right:0px; 
+    z-index: 9999;
    }
 .brokers-table-title a.broker-link{
   font-size: .75rem;

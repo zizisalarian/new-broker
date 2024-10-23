@@ -307,7 +307,12 @@ input[type="checkbox"] {
    .table-container thead th:first-child{
     background-color: #007bff ;
    }
-  
+ 
+   .table-container  th:first-child >div{
+    position:sticky;
+
+    right:0px; 
+   }
 .brokers-table-title a.broker-link{
   font-size: .75rem;
   color: #999;

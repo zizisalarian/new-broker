@@ -310,7 +310,11 @@ input[type="checkbox"] {
  
    .table-container  th:first-child {
     position:sticky;
-
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
     right:0px; 
    }
 .brokers-table-title a.broker-link{

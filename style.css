@@ -319,6 +319,12 @@ input[type="checkbox"] {
     align-self : flex-start;
     background-color: red;
     z-index: 1;
+    display: block;
+   }
+ 
+   .table-container  th:first-child::before {
+     position:sticky;
+    display: block;
    }
    .table-container tr{
     overflow: auto;

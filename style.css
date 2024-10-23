@@ -316,8 +316,10 @@ input[type="checkbox"] {
     position: -o-sticky;
     position: sticky;
     right:0px; 
+    left: auto;
     align-self : flex-start;
     background-color: red;
+    z-index: 1;
    }
    .table-container tr{
     /* display: contents; */

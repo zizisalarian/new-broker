@@ -396,25 +396,25 @@ table{
   will-change: contents;
 }
 
-.brokers-table-title a.broker-link {
+.grid-item>div a.broker-link {
   font-size: .75rem;
   color: #999;
   border: 3px solid #D5D5E0;
   text-decoration: none;
 }
 
-.brokers-table-title h6 {
+.grid-item>div h6 {
   color: #202CC7;
   font-size: .7rem;
   font-weight: bold;
 }
 
-.brokers-table-title span {
+.grid-item>div span {
   color: #999;
   font-size: .7rem;
 }
 
-.brokers-table-title img {
+.grid-item>div img {
   width: 100%
 }
 
@@ -488,22 +488,59 @@ footer .social a i {
 
 .table-table {
   overflow: auto;
+  border: 3px solid #fff;
+  max-height: 500px;
 
 }
 .table-table >div{
   display: grid;
   grid-template-columns: repeat(13, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  max-width: 100%;
+}
+.table-table >div.grid-title{
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   max-width: 100%;
 }
 .grid-item{
   width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: #f1f3f6;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff
 }
-.grid-item:nth-child(13n+1){
-  background-color: red;
+.grid-item.header-table{
+  position: sticky;
+  top:0;
+  width: 100px;
+  background-color: #a6c3ff;
+  color: #fff;
+  border: none;
+  border-left: 1px solid #fff;
+  height: 70px;
+  
+}
+.grid-item.header-table:first-child{
+  background-color: #007bff;
+  
+}
+
+.grid-item:nth-child(13n+1) , .grid-item.header-table:first-child{
+  
+  border-left: 3px solid #fff;
+  width: 250px;
+z-index: 9;
   position: sticky;
   position: -webkit-sticky;
   right: 0;
+}
+.grid-item:nth-child(13n){
+  border-left: none
 }

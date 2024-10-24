@@ -335,7 +335,10 @@ input[type="checkbox"]:checked::before {
 .table-container td {
   background-color: #EAEBED;
 }
-
+table{
+  height: 400px;
+  overflow-y: auto;
+}
 .table-container thead th {
   border: 2px solid #fff;
   border-top: none;
@@ -481,4 +484,26 @@ footer .social a i {
     background-size: cover;
   }
 
+}
+
+.table-table {
+  overflow: auto;
+
+}
+.table-table >div{
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  max-width: 100%;
+}
+.grid-item{
+  width: 100px;
+}
+.grid-item:nth-child(13n+1){
+  background-color: red;
+  position: sticky;
+  position: -webkit-sticky;
+  right: 0;
 }
